@@ -1,0 +1,280 @@
+.Home {
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+}
+
+
+.site-loc {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 30px;
+  width: 100%;
+  padding: 0px 10px 0px 20px;
+}
+
+.site-loc a {
+  color: black;
+}
+
+/*            General Page              */
+
+.Generan_Page {
+  margin: 20px 10px;
+  display: flex;
+  gap: 20px;
+}
+
+/*               Filter                 */
+.films_date {
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(to bottom, #4b90b8 0%, #2a6c9c 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.films_date a{
+  text-decoration: none;
+  color: white;
+}
+.films_date ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.films_date li {
+  cursor: pointer;
+  list-style: none;
+  color: white;
+  font-weight: 900;
+  height: 100%;
+  display: flex;
+  width: 90px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.films_date li:hover {
+  background-color: #8bb917;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 240px;
+  height: auto;
+}
+.Navigation {
+  width: 100%;
+  height: 257px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #2a6c9c;
+}
+
+.Navigation h3 {
+  width: 94.5%;
+  height: 46px;
+  padding: 7px;
+  color: white;
+  background-color: #2a6c9c;
+}
+.Navigation ul {
+  width: 100%;
+}
+.Navigation li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(to bottom, #4b90b8 0%, #2a6c9c 100%);
+  color: white;
+  list-style-type: none;
+  transition: all 0.3s ease;
+}
+
+.Navigation li:hover {
+  padding: 0px 0px 0px 20px;
+  background: linear-gradient(to bottom, #8bb917 0%, #8bb917 100%);
+}
+
+.Tags {
+  width: 100%;
+  height: 427px;
+  outline: 4px solid #2a6c9c;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Tags h3 {
+  width: 94.5%;
+  height: 30px;
+  padding: 7px;
+  color: white;
+  background-color: #2a6c9c;
+}
+
+.Tags ul {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 20% 10% 10% 10% 10% 20% 20%;
+  grid-template-areas:
+    "r w w w o o t"
+    "r e e e e e t";
+}
+
+.Tags button {
+  color: white;
+  border: none;
+  background: linear-gradient(to bottom, #4b90b8 0%, #2a6c9c 100%);
+  transition: all 0.3s;
+}
+
+.Tags button:hover {
+  background: linear-gradient(to bottom, #2a6c9c 0%,#4b90b8 100%);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgb(93, 93, 93);
+}
+
+.Tags button:nth-child(1) {
+  grid-area: w;
+}
+.Tags button:nth-child(2) {
+  grid-area: e;
+}
+.Tags button:nth-child(3) {
+  grid-area: r;
+}
+.Tags button:nth-child(4) {
+  grid-area: o;
+}
+.Tags button:nth-child(5) {
+  grid-area: t;
+}
+
+/*                 General                */
+
+.General {
+  height: auto;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.Search {
+  display: flex;
+  justify-content: space-between;
+  width: 94.5%;
+  background-color: #8bb917;
+  border: 10px solid #f2f6f8;
+  padding: 10px;
+}
+
+.Search input {
+  outline: none;
+  border: none;
+  box-shadow: inset 0 0 1px;
+  padding: 0 0 0 10px;
+  width: 80%;
+  height: 40px;
+  /* border: 10px solid #8bb917; */
+}
+.Search button {
+  cursor: pointer;
+  width: 15%;
+  border-radius: 3px;
+  padding: 0 15px;
+  height: 40px;
+  line-height: 40px;
+  width: 100px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  background: linear-gradient(to bottom, #faec05 0%, #fac905 100%);
+  border: none;
+}
+.Search button:hover{
+  background: linear-gradient(to bottom, #fac905 0%,  #faec05 100%);
+}
+
+
+
+/*  info side */
+
+.info-site{
+  width: 22%;
+}
+
+.info-box{
+  width: 100%;
+  height: 200px;
+  border: 3px solid #fac905;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-box h3{
+  width: 100%;
+  height: 40px;
+  background-color: #fac905;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-box p{
+  padding: 10px;
+}
+
+.info-img{
+  width: 100%;
+  height: 300px;
+  background-image: url(http://hentasis1.top/templates/hentasis/images/rkl2.jpg);
+  background-size: cover;
+}
+
+.mov-lines li{
+  list-style: none;
+}
+
+@media screen and (max-width: 1300px) {
+  /* .filter{
+    display: none;
+  } */
+  .info-site{
+    display: none;
+  }
+  .General{
+    width: 78%;
+  }
+}
+@media screen and (max-width: 920px) {
+  .filter{
+    display: none;
+  }
+  .films_date ul{
+    display: none;
+  }
+  
+  .General{
+    width: 100%;
+  }
+}

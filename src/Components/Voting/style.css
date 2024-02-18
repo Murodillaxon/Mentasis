@@ -1,0 +1,75 @@
+.Voting {
+  text-align: center;
+  width: 100%;
+  border: 3px solid #2a6c9c;
+}
+
+.Voting form {
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+
+.Voting label {
+  color: #5c5c5c;
+  display: flex;
+  padding: 10px 0 10px 0;
+  gap: 10px;
+}
+
+.Voting ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Voting h3{
+  width: 100%;
+  background-color: #2a6c9c;
+  color: white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Voting p{
+  color: #5c5c5c;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 18px;
+  position: relative;
+  border-bottom: 1px dashed rgba(0,0,0,0.2);
+}
+.voting-form{
+  padding: 10px;
+}
+
+.voting-form button{
+  border: none;
+  box-shadow: none !important;
+  height: 36px;
+  line-height: 36px;
+  color: #000;
+  background: linear-gradient(to bottom, #faec05 0%,#fac905 100%);
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+.stats ul {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.stats li{
+  color: #5c5c5c;
+  padding: 7px 0 0 10px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}

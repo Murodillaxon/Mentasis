@@ -1,0 +1,84 @@
+/* CommentApp.css */
+.CommentForm {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .CommentForm h1 {
+    color: #f57c00;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  .CommentForm label {
+    display: block;
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  .CommentForm input,
+  textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .CommentForm button {
+    background-color: #f57c00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .CommentForm button:hover {
+    background-color: #e65100;
+  }
+  
+  .Comments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .CommentBox {
+    background-color: #ffffff;
+    color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 300px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .CommentBox:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .CommentBox strong {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .CommentForm footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  
