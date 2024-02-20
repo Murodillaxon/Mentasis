@@ -137,32 +137,36 @@
     "r e e e e e t";
 }
 
-.Tags button {
+.Tags a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
   border: none;
   background: linear-gradient(to bottom, #4b90b8 0%, #2a6c9c 100%);
   transition: all 0.3s;
 }
 
-.Tags button:hover {
+
+.Tags a:hover {
   background: linear-gradient(to bottom, #2a6c9c 0%,#4b90b8 100%);
   transform: scale(1.1);
   box-shadow: 0 0 10px rgb(93, 93, 93);
 }
 
-.Tags button:nth-child(1) {
+.Tags a:nth-child(1) {
   grid-area: w;
 }
-.Tags button:nth-child(2) {
+.Tags a:nth-child(2) {
   grid-area: e;
 }
-.Tags button:nth-child(3) {
+.Tags a:nth-child(3) {
   grid-area: r;
 }
-.Tags button:nth-child(4) {
+.Tags a:nth-child(4) {
   grid-area: o;
 }
-.Tags button:nth-child(5) {
+.Tags a:nth-child(5) {
   grid-area: t;
 }
 

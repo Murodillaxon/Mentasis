@@ -30,7 +30,7 @@
     return (
       <div>
         {moviesData.map((item, index) => (
-          <div className="short-item" key={index}>
+          <div className="short-item " key={index}>
             <div className="short-head">
               <h3>
                 <Link to={`/${item.id}`}>{item.title}</Link>

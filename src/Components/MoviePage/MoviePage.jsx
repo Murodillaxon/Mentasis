@@ -24,7 +24,7 @@ const MoviePage = ({ setSiteLoc }) => {
   }, [id, setSiteLoc]);
 
   return (
-    <div>
+    <div className="MoviePage">
       {movie ? (
         <div className="short-item">
           <div className="short-head">

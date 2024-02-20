@@ -332,7 +332,23 @@
   }
   .short-but{
     width: 80%;
+    margin: 0 40px 0 0 ;
   }
+
+  .short-img{
+    margin: 0 auto;
+    width: 300px;
+  }
+  .MoviePage{
+    width: 100%;
+  }
+  .singlepage-movie{
+    width: 100%;
+  }
+  .singlepage-movie iframe{
+    width: 100%;
+  }
+ 
   .short-item{
     height: auto;
   }
@@ -343,4 +359,14 @@
   .short-inner {
     flex-direction: column;
   }
+}
+
+@media screen and (max-width: 700px) {
+  .short-inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
 }
