@@ -327,20 +327,20 @@
   .short-img{
     width: 80%;
   }
-  .short-img img{
-    width: 100%;
-  }
   .short-but{
     width: 80%;
     margin: 0 40px 0 0 ;
   }
 
   .short-img{
-    margin: 0 auto;
+    padding: 0 auto;
     width: 300px;
   }
   .MoviePage{
     width: 100%;
+  }
+  .MoviePage .short-img{
+    width: 80%;
   }
   .singlepage-movie{
     width: 100%;
